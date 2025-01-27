@@ -1,0 +1,100 @@
+
+@media (max-width: 1425px) {
+    body{
+        margin:20rem 0 ;
+        .container {
+            grid-template-areas:
+                "one"
+                "two"
+                "three"
+                "four"
+                "five";
+            gap: 3rem;
+            padding: 2rem;
+                .container__card {
+                    width: 90%;
+                    .container__card-author-image-img {
+                        width: 2.5rem;
+                    }
+                }
+                    .container__card-heading {
+                        font-size: 1.25rem;
+                    }
+        }
+    }
+  
+}
+
+@media (max-width: 1024px) {
+    body{
+        margin:20rem 0 ;
+            .container {
+                grid-template-areas: 
+                    "one"
+                    "two"
+                    "three"
+                    "four"
+                    "five";
+                gap: 3rem;
+                padding: 2rem;
+                    .container__card {
+                        width: 52%;
+                        .container__card-author-image-img {
+                            width: 2.5rem;
+                        }
+                        .container__card-heading {
+                            font-size: 1.25rem;
+                        }
+                    }
+            }
+    }
+     
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 2rem;
+            .container {
+                grid-template-areas: 
+                    "one"
+                    "two"
+                    "three"
+                    "four"
+                    "five";
+                gap: 3rem;
+                padding: 1rem;
+                
+                .container__card{
+                    width:80%;
+                    &  .container__card-heading {
+                        font-size: 1.1rem;
+                    }
+                }
+                  
+            }
+    }
+   
+}
+
+@media (max-width: 480px) {
+
+            .container {
+                grid-template-areas: 
+                    "one"
+                    "two"
+                    "three"
+                    "four"
+                    "five";
+                gap: 3rem;
+                
+                .container__card{
+                    width: 55%;;
+                    &  .container__card-heading {
+                        font-size: 1.1rem;
+                    }
+                }
+             
+    }
+   
+ }
+
